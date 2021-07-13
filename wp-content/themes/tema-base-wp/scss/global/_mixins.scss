@@ -1,0 +1,17 @@
+@mixin default-button () {
+    color: $first;
+    background-color: $second;
+    border: none;
+    padding: .5rem 2.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}

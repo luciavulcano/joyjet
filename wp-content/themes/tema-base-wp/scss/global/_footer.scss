@@ -1,0 +1,15 @@
+.footer {
+  margin: 57px 0 73px 0;
+
+  &__p {
+    font-size: .68rem;
+    color: $fourth;
+    text-align: center;
+
+
+    @media(min-width: 992px) {
+      text-align: left;
+    }
+  }
+
+}

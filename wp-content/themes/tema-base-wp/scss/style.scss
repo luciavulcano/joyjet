@@ -1,0 +1,23 @@
+//bootstrap 
+@import "bootstrap4.scss";
+@import "bootstrap4/mixins";
+// Reset
+@import "global/reset.scss";
+// variables 
+@import "global/variables.scss";
+//  mixins
+@import "global/mixins.scss";
+
+@import "global/navbar.scss";
+@import "global/home.scss";
+@import "global/cards.scss";
+@import "global/footer.scss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $background-color;
+}
+
+.btn {
+  @include default-button;
+}

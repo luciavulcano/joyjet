@@ -1,0 +1,60 @@
+.card {
+  width: 272px;
+  height: 388px;
+  background-color: $first;
+  border-radius: $border-radius-default;
+
+  @media (min-width:992px) {
+    height: 462px;
+  }
+
+
+  img {
+    border-top-right-radius: $border-radius-default;
+    border-top-left-radius: $border-radius-default;
+    height: 235px;
+
+    @media (min-width:992px) {
+      height: auto;
+    }
+  }
+
+  &-body {
+    padding: 1rem;
+  }
+
+  &-title {
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: $third;
+
+    @media (min-width:992px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &-text {
+    font-size: .875rem;
+    line-height: 21px;
+    color: $fourth;
+
+    @media (min-width:992px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 1.125rem;
+  line-height: 10px;
+}
+
+.slick-dots li.slick-active button::before {
+  color: $second;
+}
+
+.slick-arrow::before {
+  color: $second !important;
+  font-size: 3rem;
+  z-index: 10;
+}

@@ -1,0 +1,86 @@
+.main {
+  padding-top: 7.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+
+  @media (min-width: 992px) {
+    padding-top: 10rem;
+    height: 80vh;
+  }
+
+  &__title {
+    color: $first;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: .3rem;
+
+    @media (min-width: 992px) {
+      font-size: 7.375rem;
+    }
+
+
+    span {
+      color: $second;
+    }
+  }
+
+  &__text {
+    color: $first;
+    font-size: 1.125rem;
+    line-height: 27px;
+
+  }
+}
+
+.about-us {
+  padding-top: 3rem;
+
+  &__img {
+    border-radius: $border-radius-default;
+  }
+
+  &__title {
+    color: $second;
+    font-size: 1.625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    @media (min-width: 992px) {}
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 32px;
+  }
+}
+
+.trending {
+  margin-top: 1rem;
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+
+  h3 {
+    font-size: 1.25rem;
+    color: $first;
+    font-weight: 400;
+
+    span {
+      color: $second;
+    }
+  }
+
+  p {
+    color: $first;
+    font-size: 1rem;
+  }
+
+  &__line {
+    border-left: 3px solid $first;
+    margin: 0 2rem;
+  }
+}

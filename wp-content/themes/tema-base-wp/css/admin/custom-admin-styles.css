@@ -1,0 +1,6 @@
+.wp-menu-image.dashicons-before.dashicons-coffee:before,
+.wp-menu-image.dashicons-before.dashicons-admin-page:before,
+.wp-menu-image.dashicons-before.dashicons-admin-generic:before,
+.wp-menu-image.dashicons-before.dashicons-admin-site:before{
+    color: #E1B912 !important;
+}
